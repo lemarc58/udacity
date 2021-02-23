@@ -80,7 +80,7 @@ The whole conceptual data model is shown below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
 
 <h2> 5- ETL Process </h2>
-After defining the data model, it is time to create the ETL pipeline in order to feed all the tables in model. For this purpose, I created a well designed ETL pipeline in Apache Airflow. You can see the Airflow DAG Graph view below.<br>
+After defining the data model, it is time to create the ETL pipeline in order to feed all the tables in model. For this purpose, I created a well designed ETL pipeline in Apache Airflow. You can see the Airflow DAG Graph view below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
 <h3> ETL Steps </h3>
 <ul>
@@ -103,13 +103,13 @@ After the whole ETL process is finished, you can see the created tables in Redsh
 <br>
 <br><br>
 
-<b>Project Directory</b>
-create_all_tables.sql => sql queries for creating staging, fact and dimension tables  
-udacity_capstone_project_dag.py => main dag file
-sql_queries.py => sql queries for inserting data into tables
-data_quality.py => check data quality operator file
-load_dimension.py => load dimension tables operator file
-load_fact.py => load fact table operator file
+<b>Project Directory</b><br>
+create_all_tables.sql => sql queries for creating staging, fact and dimension tables <br>
+udacity_capstone_project_dag.py => main dag file <br>
+sql_queries.py => sql queries for inserting data into tables <br>
+data_quality.py => check data quality operator file <br>
+load_dimension.py => load dimension tables operator file <br>
+load_fact.py => load fact table operator file <br>
 stage_redshift.py => load staging tables operator file
 
 <b>How to run project</b>
