@@ -72,9 +72,9 @@ I created five Redshift tables to store fact and dimension tables: These are rev
 <ul>
 <li><b>Reviews: </b>This is the fact table in data model. It stores basic info about reviews and also foreign keys from other dimension tables.</li>
 <li><b>Recipes: </b>This dimension table is for recipe data. Also it has RecipeCategoryId column from other dimension table.</li>
-<li><b>Author: </b>For author dimension, I created author table to store data about authors.</li>
+<li><b>Author: </b>I created author dimension table to store data about authors.</li>
 <li><b>Time: </b>This is the time dimension table for storing submitted date of the reviews.</li>
-<li><b>Category: </b>It is the final dimension table to store category of recipes.</li>
+<li><b>Category: </b>It is the dimension table to store category of recipes.</li>
 </ul>
 The whole conceptual data model is shown below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
