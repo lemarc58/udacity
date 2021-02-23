@@ -64,7 +64,7 @@ There were some data quality issues in original datasets as shown below.
 <h2> 4- Definition of Data Model </h2>
 After data exploration phase, I defined the conceptual data model as shown below.
 <h3> 4-1 Staging Tables </h3>
-The original datasets are in csv and parquet format. I created two Amazon Redshift tables in onder to store these original datasets. Recipes dataset is stored in staging_recipes table and reviews dataset is stored in staging_reviews table. Then I created an ETL processes to read and load original datasets into these Redshift tables. The detail of staging tables is below.
+The original datasets are in csv and parquet format. I created two Amazon Redshift tables in onder to store these original datasets. Recipes dataset is stored in staging_recipes table and reviews dataset is stored in staging_reviews table. Then I created an ETL processes to read and load original datasets into these Redshift tables. The detail of staging tables is below.<br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left;vertical-align:bottom">
 <br>
 <b> Redshift Fact and Dimension Tables </b>
