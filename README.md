@@ -68,7 +68,7 @@ The original datasets are in csv and parquet format. I created two Amazon Redshi
 <img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left;vertical-align:bottom">
 
 <h3> 4-2 Fact and Dimension Tables </h3>
-I created five Redshift tables to store fact and dimension tables: These are reviews, recipes, author, time and category tables.
+I created five Redshift tables to store fact and dimension tables: These are reviews, recipes, author, time and category tables.<br>
 <ul>
 <li><b>Reviews: </b>This is the fact table in data model. It stores basic info about reviews and also foreign keys from other dimension tables.</li>
 <li><b>Recipes: </b>This dimension table is for recipe data. Also it has RecipeCategoryId column from other dimension table.</li>
@@ -97,10 +97,11 @@ After ETL runs once, this is the Airflow DAG Tree view.<br><br>
 After the whole ETL process is finished, you can see the created tables in Redshift below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
 
-<h2> 6- Architecture of the Project </h2>
-<b> Architecture of the Project </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg">
-<br>
+<h2> 6- About the Project </h2>
+The main goal of this project was to create a good data model from various datasets and also build a good ETL pipeline end to end. I prefered to use Airflow as ETL scheduler, S3 as file storage and Redshift as relational database. The high level architecture diagram of the project is below. <br>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg"> <br>
+I choosed S3 and Redshift because both of them run on cloud and they have the ability of scaling up. Airflow is the most used Python based ETL scheduler tool and I used it in project.
+
 <br><br>
 
 <b>Project Directory</b><br>
