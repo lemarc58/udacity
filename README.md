@@ -13,8 +13,8 @@ In this project, I have used food.com Recipes and Reviews datasets from Kaggle. 
 <h2> 3- Data Exploration </h2>
 There were some data quality issues in original datasets as shown below. 
 <ul>
-  <li>Missing Values: </li>
-  <li>Duplicate Data: </li>
+  <li><b>Missing Values: </b> There were missing values in each datasets. I deleted the rows which contain missing values in important columns like ReviewId, AutoherId. </li>
+  <li><b>Duplicate Data: </b> There were duplicate data in each sets. I deleted the duplicate data before data modelling.</li>
 </ul>
 <br><br>
 
