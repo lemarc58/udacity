@@ -1,12 +1,12 @@
 <h2> 1- Scope of the Project </h2>
 In this Udacity Data Engineering Nanodegree Capstone Project, I have built a data pipeline which includes various technology and processes. The main idea under this project is to create a data model for Business Intelligence Applications. Business Intelligence Applications always need a well designed data model. Also this data model can easily be used for analytics especially machine learning model. 
-<br><br>
+<br>
 
 <h2> 2- About Data </h2>
-In this project, I have used Recipes and Reviews datasets from Kaggle. You can see the details of the datasets <a href="https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews">here</a>. 
-The recipes dataset contains 522,517 recipes from 312 different categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more. Recipe dataset is in csv format and it has 8 columns.
-The reviews dataset contains 1,401,982 reviews from 271,907 different users. This dataset provides information about the author, rating, review text, and more. Reviews dataset is in parquet format and it has 28 columns.
-<br><br>
+In this project, I have used Recipes and Reviews datasets from Kaggle. You can see the details of the datasets <a href="https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews">here</a>. <br>
+<b> The recipes dataset: </b> It contains 522,517 recipes from 312 different categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more. Recipe dataset is in csv format and it has 8 columns.<br>
+<b> The reviews dataset: </b> It contains 1,401,982 reviews from 271,907 different users. This dataset provides information about the author, rating, review text, and more. Reviews dataset is in parquet format and it has 28 columns.
+<br>
 
 <h2> 3- Data Exploration </h2>
 <br><br>
