@@ -8,44 +8,41 @@
 <br><br>
 
 <h2> 4- Definition of Data Model </h2>
-<br><br>
-
-<h2> 5- ETL Process </h2>
-<br><br>
-
-<h2> 6- Architecture of the Project </h2>
-<br><br>
-
-<h2> 7- Scenarios </h2>
-<br><br>
-
-<b> Graph View of the DAG </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
-<br>
-
-<b> Gantt View of the DAG </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
-<br>
-
-<b> Tree View of the DAG </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg">
-<br>
-
-<b> Architecture of the Project </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg">
-<br>
-
-<b> S3 tables </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
-<br>
 
 <b> Redshift Staging Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg">
 <br>
-
 <b> Redshift Fact and Dimension Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
 <br>
+<br><br>
+
+<h2> 5- ETL Process </h2>
+<b> Graph View of the DAG </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
+<br>
+<b> Gantt View of the DAG </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
+<br>
+<b> Tree View of the DAG </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg">
+<br>
+<b> S3 tables </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
+<br>
+<br><br>
+
+<h2> 6- Architecture of the Project </h2>
+<b> Architecture of the Project </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg">
+<br>
+<br><br>
+
+<h2> 7- Scenarios </h2>
+    If the data was increased by 100x.
+		If the pipelines were run on a daily basis by 7am.
+		If the database needed to be accessed by 100+ people.
+<br><br>
 
 
 About Data
