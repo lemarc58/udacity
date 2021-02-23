@@ -62,6 +62,8 @@ There were some data quality issues in original datasets as shown below.
 </ul>
 
 <h2> 4- Definition of Data Model </h2>
+After data exploration phase, I defined the conceptual data model as shown below.
+<h3> 4-1 Staging Tables </h3>
 
 <b> Redshift Staging Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left;vertical-align:bottom">
