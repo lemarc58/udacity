@@ -1,5 +1,5 @@
 <h2> 1- Scope of the Project </h2>
-In this Udacity Data Engineering Nanodegree Capstone Project, I have built a data pipeline which includes various technology and processes. The main idea under this project is to create a data model for Business Intelligence Applications. Business Intelligence Applications always need a well designed data model. Also this data model can easily be used for analytics especially machine learning model.
+In this Udacity Data Engineering Nanodegree Capstone Project, I have built a data pipeline which includes various technology and tools The main idea under this project is to create a data model for Business Intelligence Applications because Business Intelligence Applications always need a well designed data model for performance and readability. Also this data model can be easily used for analytics especially machine learning model training.
 <br>
 
 <h2> 2- About Data </h2>
