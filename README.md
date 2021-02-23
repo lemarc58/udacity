@@ -16,7 +16,6 @@ There were some data quality issues in original datasets as shown below.
   <li><b>Missing Values: </b> There were missing values in each datasets. I deleted the rows which contain missing values in important columns like ReviewId, AuthorId. </li>
   <li><b>Duplicate Data: </b> There were duplicate data in each sets. I deleted the duplicate data before data modelling.</li>
 </ul>
-<br><br>
 
 <h2> 4- Definition of Data Model </h2>
 
