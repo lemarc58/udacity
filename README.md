@@ -109,14 +109,16 @@ The project consists of four main processes. All the ETL process are controlled 
 <li>Finally, there are two data quality controls for tables in Redshift. </li>
 </ol>
 
-<b>Project Directory</b><br>
-<b>create_all_tables.sql =></b> sql queries for creating staging, fact and dimension tables <br>
-<b>udacity_capstone_project_dag.py =></b> main dag file <br>
-<b>sql_queries.py =></b> sql queries for inserting data into tables <br>
-<b>data_quality.py =></b> check data quality operator file <br>
-<b>load_dimension.py =></b> load dimension tables operator file <br>
-<b>load_fact.py =></b> load fact table operator file <br>
-<b>stage_redshift.py =></b> load staging tables operator file
+<b>Project Directory</b>
+<ul>
+<li><b>create_all_tables.sql =></b> sql queries for creating staging, fact and dimension tables </li>
+<li><b>udacity_capstone_project_dag.py =></b> main dag file </li>
+<li><b>sql_queries.py =></b> sql queries for inserting data into tables </li>
+<li><b>data_quality.py =></b> check data quality operator file </li>
+<li><b>load_dimension.py =></b> load dimension tables operator file </li>
+<li><b>load_fact.py =></b> load fact table operator file </li>
+<li><b>stage_redshift.py =></b> load staging tables operator file </li>
+</ul>
 
 <b>How to run project</b>
 <ol>
