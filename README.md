@@ -91,11 +91,9 @@ After defining the data model, it is time to create the ETL pipeline in order to
 <li><b>run_quality_checks_author, run_quality_checks_recipes :</b> They check data quality issues in tables.</li>
 </ul>
 In the Airflow DAG Gantt View below, you can see the time takes for each step. As you noticed reading data from s3 bucket and loading it into staging tables takes longer than other steps in ETL because files in datasets are very big.<br><br>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
-
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg"><br>
 After ETL runs once, this is the Airflow DAG Tree view.<br><br>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg">
-
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg"><br>
 After the whole ETL process is finished, you can see the created tables in Redshift below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
 
@@ -129,9 +127,11 @@ load_fact.py => load fact table operator file
 stage_redshift.py => load staging tables operator file
 
 
-How to run project
-1- Be sure that Airflow is up and running
-2- Save datasets in s3 bucket
-2- Create AWS and Redshift connections in Airflow
-3- Run DAG
-4- Control every step in DAG and tables in Redshift 
+<b>How to run project</b>
+<ol>
+<li>Be sure that Airflow is up and running </li>
+<li>Save datasets in s3 bucket </li>
+<li>Create AWS and Redshift connections in Airflow </li>
+<li>Run DAG </li>
+<li>Control every step in DAG and tables in Redshift </li>
+</ol>
