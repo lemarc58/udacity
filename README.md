@@ -10,7 +10,7 @@
 <h2> 4- Definition of Data Model </h2>
 
 <b> Redshift Staging Tables </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left">
+<img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left;vertical-align:bottom">
 <br>
 <b> Redshift Fact and Dimension Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
