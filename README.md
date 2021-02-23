@@ -3,6 +3,7 @@ In this Udacity Data Engineering Nanodegree Capstone Project, I have built a dat
 <br><br>
 
 <h2> 2- About Data </h2>
+In this project, I have used Recipes and Reviews datasets from Kaggle. You can see the details of the datasets <a href="https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews">here</a>. 
 <br><br>
 
 <h2> 3- Data Exploration </h2>
