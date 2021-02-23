@@ -90,15 +90,14 @@ After defining the data model, it is time to create the ETL pipeline in order to
 <li><b>load_author_dimension_table, load_time_dimension_table, load_category_dimension_table, load_recipes_dimension_table :</b> They load four dimension tables.</li>
 <li><b>run_quality_checks_author, run_quality_checks_recipes :</b> They check data quality issues in tables.</li>
 </ul>
-In the Airflow DAG Gantt View below, you can see the time takes for each step. As you noticed reading data from s3 bucket and loading it into staging tables takes longer than other steps in ETL because files in datasets are very big.<br>
+In the Airflow DAG Gantt View below, you can see the time takes for each step. As you noticed reading data from s3 bucket and loading it into staging tables takes longer than other steps in ETL because files in datasets are very big.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
-<br>
-After ETL runs once, this is the Airflow DAG Tree view.<br>
+
+After ETL runs once, this is the Airflow DAG Tree view.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg">
 
-After the whole ETL process is finished, you can see the created tables in Redshift below.<br>
+After the whole ETL process is finished, you can see the created tables in Redshift below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
-<br>
 
 <h2> 6- Architecture of the Project </h2>
 <b> Architecture of the Project </b>
