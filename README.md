@@ -4,10 +4,54 @@ In this Udacity Data Engineering Nanodegree Capstone Project, I have built a dat
 
 <h2> 2- About Data </h2>
 In this project, I have used food.com Recipes and Reviews datasets from Kaggle. You can see the details of the datasets <a href="https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews">here</a>. <br><br>
-<b> The recipes dataset: </b> It contains 522,517 recipes from 312 different categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more. Recipe dataset is in csv format and it has 28 columns. Sample data is shown below.<br>
+<b> The recipes dataset: </b> It contains 522,517 recipes from 312 different categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more. Recipe dataset is in csv format and it has 28 columns. The columns are ;
+<ul>
+<li>RecipeId</li>
+<li>Name</li>
+<li>AuthorId</li>
+<li>AuthorName</li>
+<li>CookTime</li>
+<li>PrepTime</li>
+<li>TotalTime</li>
+<li>DatePublished</li>
+<li>Description</li>
+<li>Images</li>
+<li>RecipeCategory</li>
+<li>Keywords</li>
+<li>RecipeIngredientQuantities</li>
+<li>RecipeIngredientParts</li>
+<li>AggregatedRating</li>
+<li>ReviewCount</li>
+<li>Calories</li>
+<li>FatContent</li>
+<li>SaturatedFatContent</li>
+<li>CholesterolContent</li>
+<li>SodiumContent</li>
+<li>CarbohydrateContent</li>
+<li>FiberContent</li>
+<li>SugarContent</li>
+<li>ProteinContent</li>
+<li>RecipeServings</li>
+<li>RecipeYield</li>
+<li>RecipeInstructions</li>
+</ul>
+
+Sample data is shown below.<br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/recipes.jpg">
 
-<b> The reviews dataset: </b> It contains 1,401,982 reviews from 271,907 different users. This dataset provides information about the author, rating, review text, and more. Reviews dataset is in parquet format and it has 8 columns. Sample data is shown below.<br>
+<b> The reviews dataset: </b> It contains 1,401,982 reviews from 271,907 different users. This dataset provides information about the author, rating, review text, and more. Reviews dataset is in parquet format and it has 8 columns. The columns are ;
+<ul>
+<li>ReviewId</li>
+<li>RecipeId</li>
+<li>AuthorId</li>
+<li>AuthorName</li>
+<li>Rating</li>
+<li>Review</li>
+<li>DateSubmitted</li>
+<li>DateModified</li>
+</ul>
+
+Sample data is shown below.<br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/reviews.jpg">
 
 <h2> 3- Data Exploration </h2>
