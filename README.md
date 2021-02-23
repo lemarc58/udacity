@@ -11,6 +11,11 @@ In this project, I have used food.com Recipes and Reviews datasets from Kaggle. 
 <img src="https://github.com/lemarc58/udacity/blob/main/image/reviews.jpg">
 
 <h2> 3- Data Exploration </h2>
+There were some data quality issues in original datasets as shown below. 
+<ol>
+  <li>Missing Values: </li>
+  <li>Duplicate Data: </li>
+</ol>
 <br><br>
 
 <h2> 4- Definition of Data Model </h2>
