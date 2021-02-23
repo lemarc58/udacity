@@ -80,10 +80,8 @@ The whole conceptual data model is shown below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
 
 <h2> 5- ETL Process </h2>
-After defining the data model, it is time to create the ETL pipeline in order to feed all the tables in model. For this purpose, I created a well designed ETL pipeline in Apache Airflow. You can see the Airflow DAG Graph view below.
-<b> Graph View of the DAG </b>
+After defining the data model, it is time to create the ETL pipeline in order to feed all the tables in model. For this purpose, I created a well designed ETL pipeline in Apache Airflow. You can see the Airflow DAG Graph view below.<br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
-<br>
 <h3> ETL Steps </h3>
 <ul>
 <li><b>create_all_tables: </b> It creates all the tables in Redshift.</li>
