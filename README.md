@@ -2,7 +2,26 @@ About Project
 In this project, I built a data pipeline from S3 to Redshift. I am collecting the data from S3 bucket and then I am inserting it into staging tables in Redshift. After some data transformations, all the data in staging tables is being loaded into dimension tables. Finally I put some data quality check rules for data in dimension tables. 
 Whole ETL pipeline is defined in Airflow.
 
+<b> Graph View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
+
+<b> Gantt View of the DAG </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
+
+<b> Tree View of the DAG </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg">
+
+<b> Architecture of the Project </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg">
+
+<b> S3 tables </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
+
+<b> Redshift Staging Tables </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg">
+
+<b> Redshift Fact and Dimension Tables </b>
+<img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
 
 About Data
 Log data => Log data of application
