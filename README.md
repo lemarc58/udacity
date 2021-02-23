@@ -10,7 +10,7 @@
 <h2> 4- Definition of Data Model </h2>
 
 <b> Redshift Staging Tables </b>
-<img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg">
+<img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left">
 <br>
 <b> Redshift Fact and Dimension Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
@@ -39,9 +39,11 @@
 <br><br>
 
 <h2> 7- Scenarios </h2>
-    If the data was increased by 100x.
-		If the pipelines were run on a daily basis by 7am.
-		If the database needed to be accessed by 100+ people.
+<ol>
+  <li>If the data was increased by 100x.</li>
+  <li>If the pipelines were run on a daily basis by 7am.</li>
+  <li>If the database needed to be accessed by 100+ people.</li>
+</ol>		
 <br><br>
 
 
