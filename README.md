@@ -98,9 +98,9 @@ After the whole ETL process is finished, you can see the created tables in Redsh
 <img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
 
 <h2> 6- About the Project </h2>
-The main goal of this project was to create a good data model from various datasets and also build a good ETL pipeline end to end. I prefered to use Airflow as ETL scheduler, S3 as file storage and Redshift as relational database. The high level architecture diagram of the project is below. <br>
+The main goal of this project was to create a good data model from various datasets and also build a good end-to-end ETL pipeline. I prefered to use Airflow as ETL scheduler, S3 as file storage and Redshift as relational database. I choosed S3 and Redshift because both of them run on cloud and they have the ability of scaling up. Airflow is the most used Python based ETL scheduler tool and I used it in project. The high level architecture diagram of the project is below. <br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg"> <br>
-I choosed S3 and Redshift because both of them run on cloud and they have the ability of scaling up. Airflow is the most used Python based ETL scheduler tool and I used it in project.
+
 
 <br><br>
 
