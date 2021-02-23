@@ -103,21 +103,7 @@ After the whole ETL process is finished, you can see the created tables in Redsh
 <br>
 <br><br>
 
-<h2> 7- Possible Scenarios </h2>
-<ul>
-  <li><b>If the data was increased by 100x. =></b> In this case, I would prefer to use Spark on Amazon EMR Cluster. Because it has high processing capability.</li>
-  <li><b>If the pipelines were run on a daily basis by 7am. =></b> It is enough to change schedule_interval value and set it to daily 7 am in Airflow.</li>
-  <li><b>If the database needed to be accessed by 100+ people. =></b> Amazon Redshift has enough resource to serve for many people but in case of any performance issues, I can scale up Redshift cluster. </li>
-</ul>		
-<br><br>
-
-
-About Data
-Log data => Log data of application
-Song data => Real Song data
-
-
-Project Directory
+<b>Project Directory</b>
 create_all_tables.sql => sql queries for creating staging, fact and dimension tables  
 udacity_capstone_project_dag.py => main dag file
 sql_queries.py => sql queries for inserting data into tables
@@ -125,7 +111,6 @@ data_quality.py => check data quality operator file
 load_dimension.py => load dimension tables operator file
 load_fact.py => load fact table operator file
 stage_redshift.py => load staging tables operator file
-
 
 <b>How to run project</b>
 <ol>
@@ -135,3 +120,11 @@ stage_redshift.py => load staging tables operator file
 <li>Run DAG </li>
 <li>Control every step in DAG and tables in Redshift </li>
 </ol>
+
+<h2> 7- Possible Scenarios </h2>
+<ul>
+  <li><b>If the data was increased by 100x. =></b> In this case, I would prefer to use Spark on Amazon EMR Cluster. Because it has high processing capability.</li>
+  <li><b>If the pipelines were run on a daily basis by 7am. =></b> It is enough to change schedule_interval value and set it to daily 7 am in Airflow.</li>
+  <li><b>If the database needed to be accessed by 100+ people. =></b> Amazon Redshift has enough resource to serve for many people but in case of any performance issues, I can scale up Redshift cluster. </li>
+</ul>		
+<br><br>
