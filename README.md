@@ -48,11 +48,11 @@ There were some data quality issues in original datasets as shown below.
 <br>
 <br><br>
 
-<h2> 7- Scenarios </h2>
+<h2> 7- Possible Scenarios </h2>
 <ul>
-  <li>If the data was increased by 100x. => In this case, I would prefer to use Spark on Amazon EMR Cluster. Because it has high processing capability.</li>
-  <li>If the pipelines were run on a daily basis by 7am. => It is enough to change schedule_interval value and set it to daily 7 am in Airflow.</li>
-  <li>If the database needed to be accessed by 100+ people. => Amazon Redshift has enough resource to serve for many people but in case of any performance issues, I can scale up Redshift cluster. </li>
+  <li><b>If the data was increased by 100x. =><b> In this case, I would prefer to use Spark on Amazon EMR Cluster. Because it has high processing capability.</li>
+  <li><b>If the pipelines were run on a daily basis by 7am. =><b> It is enough to change schedule_interval value and set it to daily 7 am in Airflow.</li>
+  <li><b>If the database needed to be accessed by 100+ people. =><b> Amazon Redshift has enough resource to serve for many people but in case of any performance issues, I can scale up Redshift cluster. </li>
 </ul>		
 <br><br>
 
