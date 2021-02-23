@@ -101,12 +101,12 @@ After the whole ETL process is finished, you can see the created tables in Redsh
 The main goal of this project was to create a good data model from various datasets and also build a good end-to-end ETL pipeline. I prefered to use Airflow as ETL scheduler, S3 as file storage and Redshift as relational database. I choosed S3 and Redshift because both of them run on cloud and they have the ability of scaling up. Airflow is the most used Python based ETL scheduler tool and I used it in project. The high level architecture diagram of the project is below. <br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg"> <br>
 The project consists of four main processes. All the ETL process are controlled by Apache Airflow.
-<ul>
+<ol>
 <li>ETL starts with reading datasets from Amazon S3 bucket. Recipes and reviews datasets are in csv and parquet file format. </li>
 <li>Next step is loading these datasets into Redshift staging tables. </li>
-<li>After staging tables are ready, load data into Redshift fact and dimension tables. </li>
+<li>After staging tables are ready, it ist time to load data into Redshift fact and dimension tables. </li>
 <li>Finally, there are two data quality controls for tables in Redshift. </li>
-</ul>
+</ol>
 
 <b>Project Directory</b><br>
 <b>create_all_tables.sql =></b> sql queries for creating staging, fact and dimension tables <br>
