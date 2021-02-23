@@ -12,10 +12,10 @@ In this project, I have used food.com Recipes and Reviews datasets from Kaggle. 
 
 <h2> 3- Data Exploration </h2>
 There were some data quality issues in original datasets as shown below. 
-<ol>
+<ul>
   <li>Missing Values: </li>
   <li>Duplicate Data: </li>
-</ol>
+</ul>
 <br><br>
 
 <h2> 4- Definition of Data Model </h2>
@@ -50,11 +50,11 @@ There were some data quality issues in original datasets as shown below.
 <br><br>
 
 <h2> 7- Scenarios </h2>
-<ol>
+<ul>
   <li>If the data was increased by 100x.</li>
   <li>If the pipelines were run on a daily basis by 7am.</li>
   <li>If the database needed to be accessed by 100+ people.</li>
-</ol>		
+</ul>		
 <br><br>
 
 
