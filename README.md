@@ -76,9 +76,8 @@ I created five Redshift tables to store fact and dimension tables: These are rev
 <li><b>Time: </b>This is the time dimension table for storing submitted date of the reviews.</li>
 <li><b>Category: </b>It is the final dimension table to store category of recipes.</li>
 </ul>
-Thw whole conceptual model is show below.<br>
+The whole conceptual data model is shown below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
-<br>
 
 <h2> 5- ETL Process </h2>
 <b> Graph View of the DAG </b>
