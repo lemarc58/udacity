@@ -4,24 +4,32 @@ Whole ETL pipeline is defined in Airflow.
 
 <b> Graph View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
+<br>
 
 <b> Gantt View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
+<br>
 
 <b> Tree View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_tree.jpg">
+<br>
 
 <b> Architecture of the Project </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/architecture.jpg">
+<br>
 
 <b> S3 tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/s3.jpg">
+<br>
 
 <b> Redshift Staging Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg">
+<br>
 
 <b> Redshift Fact and Dimension Tables </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
+<br>
+
 
 About Data
 Log data => Log data of application
