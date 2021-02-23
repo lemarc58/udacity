@@ -1,6 +1,23 @@
-About Project
-In this project, I built a data pipeline from S3 to Redshift. I am collecting the data from S3 bucket and then I am inserting it into staging tables in Redshift. After some data transformations, all the data in staging tables is being loaded into dimension tables. Finally I put some data quality check rules for data in dimension tables. 
-Whole ETL pipeline is defined in Airflow.
+<h2> 1- Scope of the Project </h2>
+<br><br>
+
+<h2> 2- About Data </h2>
+<br><br>
+
+<h2> 3- Data Exploration </h2>
+<br><br>
+
+<h2> 4- Definition of Data Model </h2>
+<br><br>
+
+<h2> 5- ETL Process </h2>
+<br><br>
+
+<h2> 6- Architecture of the Project </h2>
+<br><br>
+
+<h2> 7- Scenarios </h2>
+<br><br>
 
 <b> Graph View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
