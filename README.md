@@ -80,9 +80,19 @@ The whole conceptual data model is shown below.<br><br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/fact_dimension_tables.jpg">
 
 <h2> 5- ETL Process </h2>
+After defining the data model, it is time to create the ETL pipeline in order to feed all the tables in model. For this purpose, I created a well designed ETL pipeline in Apache Airflow. You can see the Airflow DAG Graph view below.
 <b> Graph View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow.jpg">
 <br>
+<h3> ETL Steps </h3>
+<ul>
+<li><b>create_all_tables: </b> It creates all the tables in Redshift.</li>
+<li><b>stage_reviews_to_redshift, stage_recipes_to_redshift :</b> They read and load original datasets into Redshift staging tables.</li>
+<li><b>load_reviews_table :</b> It loads reviews fact table.</li>
+<li><b>load_author_dimension_table, load_time_dimension_table, load_category_dimension_table, load_recipes_dimension_table :</b> They load four dimension tables.</li>
+<li><b>run_quality_checks_author, run_quality_checks_recipes :</b> They check data quality issues in tables.</li>
+</ul>
+
 <b> Gantt View of the DAG </b>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/airflow_gantt.jpg">
 <br>
