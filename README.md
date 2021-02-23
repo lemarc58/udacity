@@ -64,7 +64,7 @@ There were some data quality issues in original datasets as shown below.
 <h2> 4- Definition of Data Model </h2>
 After data exploration phase, I defined the conceptual data model as shown below.
 <h3> 4-1 Staging Tables </h3>
-The original datasets are in csv and parquet format. I created two Amazon Redshift tables in onder to store these original datasets. Recipes dataset is stored in staging_recipes table and reviews dataset is stored in staging_reviews table. Then I created an ETL processes to read and load original datasets into these Redshift tables. The detail of staging tables is below.<br><br>
+The original datasets are in csv and parquet format. I created two Amazon Redshift tables in onder to store these original datasets. Recipes dataset is stored in staging_recipes table and reviews dataset is stored in staging_reviews table. Then I created an ETL processes to read and load original datasets into these Redshift tables. The detail of staging tables is below.<br>
 <img src="https://github.com/lemarc58/udacity/blob/main/image/staging_tables.jpg" style="float:left;vertical-align:bottom">
 <br>
 <h3> 4-2 Fact and Dimension Tables </h3>
@@ -72,7 +72,7 @@ I created five Redshift tables to store fact and dimension tables: These are rev
 <ul>
 <li><b>Reviews: </b>This is the fact table in data model. It stores basic info about reviews and also foreign keys from other dimension tables.</li>
 <li><b>Recipes: </b>This dimension table is for recipe data. Also it has RecipeCategoryId column from other dimension table.</li>
-<li><b>Author: </b>For author dimension, I created authot table to store data about authors.</li>
+<li><b>Author: </b>For author dimension, I created author table to store data about authors.</li>
 <li><b>Time: </b>This is the time dimension table for storing submitted date of the reviews.</li>
 <li><b>Category: </b>It is the final dimension table to store category of recipes.</li>
 </ul>
