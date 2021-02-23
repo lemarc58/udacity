@@ -104,13 +104,13 @@ After the whole ETL process is finished, you can see the created tables in Redsh
 <br><br>
 
 <b>Project Directory</b><br>
-create_all_tables.sql => sql queries for creating staging, fact and dimension tables <br>
-udacity_capstone_project_dag.py => main dag file <br>
-sql_queries.py => sql queries for inserting data into tables <br>
-data_quality.py => check data quality operator file <br>
-load_dimension.py => load dimension tables operator file <br>
-load_fact.py => load fact table operator file <br>
-stage_redshift.py => load staging tables operator file
+<b>create_all_tables.sql =></b> sql queries for creating staging, fact and dimension tables <br>
+<b>udacity_capstone_project_dag.py =></b> main dag file <br>
+<b>sql_queries.py =></b> sql queries for inserting data into tables <br>
+<b>data_quality.py =></b> check data quality operator file <br>
+<b>load_dimension.py =></b> load dimension tables operator file <br>
+<b>load_fact.py =></b> load fact table operator file <br>
+<b>stage_redshift.py =></b> load staging tables operator file
 
 <b>How to run project</b>
 <ol>
