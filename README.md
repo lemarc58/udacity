@@ -4,7 +4,7 @@ In this Udacity Data Engineering Nanodegree Capstone Project, I have built a dat
 
 <h2> 2- About Data </h2>
 In this project, I have used food.com Recipes and Reviews datasets from Kaggle. You can see the details of the datasets <a href="https://www.kaggle.com/irkaal/foodcom-recipes-and-reviews">here</a>. <br><br>
-<b> The recipes dataset: </b> It contains 522,517 recipes from categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more. Recipe dataset is in csv format and it has 28 columns. The columns are ;<br>
+<b> The recipes dataset: </b> It contains 522,517 recipes from categories. This dataset provides information about each recipe like cooking times, servings, ingredients, nutrition, instructions, and more. Recipe dataset is in csv format and it has 28 columns. The columns are ;<br><br>
 <ul>
 <li>RecipeId</li>
 <li>Name</li>
