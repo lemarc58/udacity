@@ -57,7 +57,7 @@ Sample data is shown below.<br>
 <h2> 3- Data Exploration </h2>
 There were some data quality issues in original datasets as shown below. 
 <ul>
-  <li><b>Missing Values: </b> There were missing values in each datasets. I deleted the rows which contain missing values in important columns like ReviewId, AuthorId. </li>
+  <li><b>Missing Values: </b> There were missing values in each datasets. I deleted the rows which contain missing values in important columns like ReviewId, AuthorId, RecipeCategory, DateSubmitted. </li>
   <li><b>Duplicate Data: </b> There were duplicate data in each sets. I deleted the duplicate data before data modelling.</li>
 </ul>
 
