@@ -121,7 +121,7 @@ Song data => Real Song data
 
 Project Directory
 create_all_tables.sql => sql queries for creating staging, fact and dimension tables  
-udac_example_dag.py => main dag file
+udacity_capstone_project_dag.py => main dag file
 sql_queries.py => sql queries for inserting data into tables
 data_quality.py => check data quality operator file
 load_dimension.py => load dimension tables operator file
@@ -130,7 +130,8 @@ stage_redshift.py => load staging tables operator file
 
 
 How to run project
-1- Start airflow (/opt/airflow/start.sh)
+1- Be sure that Airflow is up and running
+2- Save datasets in s3 bucket
 2- Create AWS and Redshift connections in Airflow
-3- Activate DAG
-4- Control log then Enjoy :)
+3- Run DAG
+4- Control every step in DAG and tables in Redshift 
